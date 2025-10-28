@@ -1,0 +1,23 @@
+*Tên Use Case:
+ -Đặt hàng
+*Actor:
+ -Khách hàng 
+ -Hệ thống 
+ -Nhà hàng 
+ -Hệ thống thanh toán 
+*Mục tiêu:
+ -Khách hàng đặt món ăn từ nhà hàng thông qua ứng dụng, thanh toán trực tuyến hoặc khi nhận hàng, và nhận xác nhận đơn hàng thành công
+*Luồng chính:
+ -Khách hàng đăng nhập vào ứng dụng
+ -Khách hàng tìm kiếm nhà hàng hoặc món ăn muốn đặt
+ -Khách hàng chọn món ăn và thêm vào giỏ hàng
+ -Khách hàng mở giỏ hàng để kiểm tra đơn hàng
+ -Hệ thống hiển thị tổng tiền (bao gồm phí giao hàng)
+ -Khách hàng chọn phương thức thanh toán (thẻ, ví điện tử, tiền mặt)
+ -Hệ thống gửi yêu cầu xác nhận đơn hàng đến nhà hàng
+ -Nhà hàng xác nhận đơn và bắt đầu chuẩn bị món ăn
+ -Hệ thống thông báo "Đặt hàng thành công" cho khách hàng
+*Luồng lỗi:
+ -Giỏ hàng trống -> Hệ thống hiển thị thông báo "Chưa có món nào trong giỏ hàng"
+ -Thanh toán thất bại -> Hệ thống thông báo lỗi và yêu cầu khách hàng chọn lại phương thức khác
+ -Nhà hàng từ chối đơn -> Hệ thống thông báo "Đơn hàng không thể xử lý, vui lòng chọn nhà hàng khác"
