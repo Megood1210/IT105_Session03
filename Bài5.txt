@@ -1,0 +1,16 @@
+| Actor           |Loại      | User Case phục vụ                        |
+|-----------------|----------|------------------------------------------|
+| Khách hàng      | Primary  | - Đăng ký / đăng nhập                    |
+|                 |          | - Tìm kiếm món ăn / nhà hàng             |
+|                 |          | - Đặt món và thanh toán                  |
+|                 |          | - Theo dõi đơn hàng                      |
+|-----------------|----------|------------------------------------------|                                                                                                                                                                                                                                                                                                                                              
+| Nhà hàng        | Primary  | - Cập nhật menu món ăn                   |   
+|                 |          | - Nhận và xác nhận đơn hàng              |
+|                 |          | - Cập nhật trạng thái chế biến           |
+|-----------------|----------|------------------------------------------|                                                                                                                                                                                                                                                                                                                                              
+| Tài xế giao hàng| Primary  | - Nhận đơn giao hàng                     |
+|                 |          | - Cập nhật trạng thái giao               |
+|-----------------|----------|------------------------------------------|                                                                                                                                                                                                                                                                                                                                              
+| Quản trị viên   | Secondary| - Quản lý tài khoản người dùng / nhà hàng|
+|                 |          | - Giám sát hoạt động và xử lý khiếu nại  |
